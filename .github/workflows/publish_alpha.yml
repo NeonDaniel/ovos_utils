@@ -48,6 +48,11 @@ jobs:
           draft: false
           prerelease: true
           commitish: dev
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          ref: dev
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
       - name: Build Distribution Packages
         run: |
           python setup.py sdist bdist_wheel
