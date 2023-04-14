@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.0.31a15](https://github.com/NeonDaniel/ovos_utils/tree/HEAD)
+## [V0.0.31a15](https://github.com/NeonDaniel/ovos_utils/tree/V0.0.31a15) (2023-04-14)
 
-[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/25fe462e3c19a58f32dc1fd940bf7c96fc18e6de...HEAD)
+[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/25fe462e3c19a58f32dc1fd940bf7c96fc18e6de...V0.0.31a15)
 
 **Merged pull requests:**
 
