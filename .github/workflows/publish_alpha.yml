@@ -20,7 +20,7 @@ on:
 
 jobs:
   update_version:
-    uses: neongeckocom/.github/.github/workflows/propose_semver_release.yml@FIX_MultilineVersionHandling
+    uses: neongeckocom/.github/.github/workflows/propose_semver_release.yml@FEAT_ContinueOnReleaseError
     with:
       release_type: "alpha"
       version_file: ovos_utils/version.py
