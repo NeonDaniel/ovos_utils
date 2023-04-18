@@ -1,24 +1,12 @@
 # Changelog
 
-## [1.0.0](https://github.com/NeonDaniel/ovos_utils/tree/HEAD)
+## [0.0.31a17](https://github.com/NeonDaniel/ovos_utils/tree/0.0.31a17) (2023-04-18)
 
-[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/V0.2.0a1...HEAD)
+[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/V0.0.31a16...0.0.31a17)
 
 **Merged pull requests:**
 
 - Feat update release automation [\#4](https://github.com/NeonDaniel/ovos_utils/pull/4) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [V0.2.0a1](https://github.com/NeonDaniel/ovos_utils/tree/V0.2.0a1) (2023-04-14)
-
-[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/V0.0.31a16...V0.2.0a1)
-
-## [V0.0.31a16](https://github.com/NeonDaniel/ovos_utils/tree/V0.0.31a16) (2023-04-14)
-
-[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/V0.0.31a15...V0.0.31a16)
-
-## [V0.0.31a15](https://github.com/NeonDaniel/ovos_utils/tree/V0.0.31a15) (2023-04-14)
-
-[Full Changelog](https://github.com/NeonDaniel/ovos_utils/compare/25fe462e3c19a58f32dc1fd940bf7c96fc18e6de...V0.0.31a15)
 
 
 
