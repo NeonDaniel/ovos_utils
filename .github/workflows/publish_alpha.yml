@@ -20,7 +20,7 @@ on:
 
 jobs:
   update_version:
-    uses: neongeckocom/.github/.github/workflows/propose_semver_release.yml@FEAT_OvosPackageSupport
+    uses: neongeckocom/.github/.github/workflows/propose_semver_release.yml@FIX_MultilineVersionHandling
     with:
       release_type: "alpha"
       version_file: ovos_utils/version.py
@@ -48,17 +48,17 @@ jobs:
           draft: false
           prerelease: true
           commitish: dev
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          ref: dev
-          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-      - name: Build Distribution Packages
-        run: |
-          python setup.py sdist bdist_wheel
-      - name: Publish to PyPI
-        if: False
-        # TODO: Remove test patch above
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          password: ${{secrets.PYPI_TOKEN}}
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
+#         with:
+#           ref: dev
+#           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+#       - name: Build Distribution Packages
+#         run: |
+#           python setup.py sdist bdist_wheel
+#       - name: Publish to PyPI
+#         if: False
+#         # TODO: Remove test patch above
+#         uses: pypa/gh-action-pypi-publish@release/v1
+#         with:
+#           password: ${{secrets.PYPI_TOKEN}}
